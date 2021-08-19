@@ -62,13 +62,22 @@
       </p>
       <div class="mt-8 flex space-x-4">
         <div class="w-5 h-5">
-          <BrandIcon name="twitter" />
+          <a class="w-full h-full" href="https://twitter.com/LeviBassey">
+            <BrandIcon name="twitter" />
+          </a>
         </div>
         <div class="w-5 h-5">
-          <BrandIcon name="github" />
+          <a class="w-full h-full" href="https://github.com/Programlevi">
+            <BrandIcon name="github" />
+          </a>
         </div>
         <div class="w-5 h-5">
-          <BrandIcon name="linkedin" />
+          <a
+            class="w-full h-full"
+            href="https://www.linkedin.com/in/levi-bassey"
+          >
+            <BrandIcon name="linkedin" />
+          </a>
         </div>
       </div>
     </div>

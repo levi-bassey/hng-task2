@@ -6,6 +6,9 @@ const config = {
       fontFamily: {
         sans: ["Mulish", "sans-serif"],
       },
+      gridTemplateColumns: {
+        "auto-grid": "repeat(auto-fill, minmax(88px, 1fr))",
+      },
     },
     colors: {
       white: "#FFF",

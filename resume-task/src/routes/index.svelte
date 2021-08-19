@@ -52,7 +52,7 @@
       <div class="mt-6 w-32 h-32 rounded-full overflow-hidden">
         <img
           class="w-full object-cover object-center grayscale"
-          src="/sming.jpg"
+          src="/avatar.jpg"
           alt="profile"
         />
       </div>

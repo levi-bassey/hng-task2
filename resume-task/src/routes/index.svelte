@@ -59,7 +59,7 @@
     </div>
   </div>
 </div>
-<p class="mt-12 px-6 text-[#C4C4C4]">
+<p class="mt-12 px-6 text-gray-100">
   I'm a software developer specializing in all things web. I love solving
   problems with code and building fast and accessible web apps. I'm always
   interested to learn about new career opportunities so please get in touch with
@@ -69,15 +69,15 @@
   <h2 class="text-2xl capitalize font-semibold">Skills</h2>
   <ul class="mt-5 grid grid-cols-3 gap-4">
     {#each skills as skill}
-      <li
-        class="w-20 h-20 flex flex-col items-center justify-center rounded-lg bg-[#373737]"
-      >
-        <div class="w-7 h-7">
-          <BrandIcon name={skill.toLowerCase()} />
+      <li class="w-20 h-20 rounded-lg bg-gray-300">
+        <div class="h-full flex flex-col items-center justify-center">
+          <div class="w-7 h-7">
+            <BrandIcon name={skill.toLowerCase()} />
+          </div>
+          <p class="mt-2 text-sm text-gray-100">
+            {skill}
+          </p>
         </div>
-        <p class="mt-2 text-sm text-[#C4C4C4]">
-          {skill}
-        </p>
       </li>
     {/each}
   </ul>
@@ -88,15 +88,15 @@
     {#each experience as { role, company, period }}
       <li class="flex">
         <div class="">
-          <div class="mt-2 w-2.5 h-2.5 bg-[#C4C4C4] rounded-full" />
+          <div class="mt-2 w-2.5 h-2.5 bg-gray-100 rounded-full" />
           <div />
         </div>
         <div class="ml-8">
-          <h3 class="text-lg font-semibold text-[#C4C4C4]">
+          <h3 class="text-lg font-semibold text-gray-100">
             {role}
           </h3>
-          <p class="mt-1.5 text-[#C4C4C4]">{company}</p>
-          <p class="mt-1.5 text-[#7F7E7E]">{period}</p>
+          <p class="mt-1.5 text-gray-100">{company}</p>
+          <p class="mt-1.5 text-gray-200">{period}</p>
         </div>
       </li>
     {/each}
@@ -108,15 +108,15 @@
     {#each education as { course, school, period }}
       <li class="flex">
         <div class="">
-          <div class="mt-2 w-2.5 h-2.5 bg-[#C4C4C4] rounded-full" />
+          <div class="mt-2 w-2.5 h-2.5 bg-gray-100 rounded-full" />
           <div />
         </div>
         <div class="ml-8">
-          <h3 class="text-lg font-semibold text-[#C4C4C4]">
+          <h3 class="text-lg font-semibold text-gray-100">
             {course}
           </h3>
-          <p class="mt-1.5 text-[#C4C4C4]">{school}</p>
-          <p class="mt-1.5 text-[#7F7E7E]">{period}</p>
+          <p class="mt-1.5 text-gray-100">{school}</p>
+          <p class="mt-1.5 text-gray-200">{period}</p>
         </div>
       </li>
     {/each}

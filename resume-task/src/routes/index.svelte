@@ -51,7 +51,7 @@
     <div class="flex flex-col items-center">
       <div class="mt-6 w-32 h-32 rounded-full overflow-hidden">
         <img
-          class="w-full object-cover object-center"
+          class="w-full object-cover object-center grayscale"
           src="/sming.jpg"
           alt="profile"
         />

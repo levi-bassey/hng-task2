@@ -1,3 +1,9 @@
+<script context="module">
+  import { dev } from "$app/env";
+
+  export const hydrate = dev;
+</script>
+
 <script>
   import BrandIcon from "$lib/components/BrandIcon.svelte";
 

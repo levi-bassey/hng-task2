@@ -31,10 +31,15 @@
       period: "Aug 2021 - November 2021",
     },
     {
+      role: "OSS Contributor",
+      company: "Gitpod",
+      period: "current",
+    },
+    {
       role: "Full-stack Developer",
       company: "Lumifile",
       period: "Aug 2020 - current",
-    },
+    }
   ];
   let education = [
     {

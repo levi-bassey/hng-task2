@@ -59,7 +59,7 @@
       </div>
       <h1 class="mt-6 text-xl font-semibold text-center">Levi Bassey</h1>
       <p class="order-first text-2xl font-semibold text-center">
-        Frontend <br />Developer
+        Full-Stack <br />Developer
       </p>
       <div class="mt-8 flex space-x-4">
         <div class="w-5 h-5">

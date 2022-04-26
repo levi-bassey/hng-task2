@@ -26,26 +26,21 @@
       period: "Jan 2019 - Jan 2020",
     },
     {
-      role: "Back-end Developer",
-      company: "Lumifile",
-      period: "Aug 2020 - Jun 2021",
-    },
-    {
       role: "Front-end Developer Intern",
       company: "HNG Internships",
-      period: "Aug 2021 - Current",
+      period: "Aug 2021 - November 2021",
+    },
+    {
+      role: "Full-stack Developer",
+      company: "Lumifile",
+      period: "Aug 2020 - current",
     },
   ];
   let education = [
     {
-      course: "Basic Education",
-      school: "Command Day Secondary School",
-      period: "2012 - 2015",
-    },
-    {
       course: "Software Engineering",
       school: "Digital bridge institute",
-      period: "2018 - Current",
+      period: "2018 - 2020",
     },
   ];
 </script>
@@ -73,7 +68,7 @@
           </a>
         </div>
         <div class="w-5 h-5">
-          <a class="w-full h-full" href="https://github.com/Programlevi">
+          <a class="w-full h-full" href="https://github.com/levi-bassey">
             <BrandIcon name="github" />
           </a>
         </div>
